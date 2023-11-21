@@ -6,3 +6,16 @@
     background-color: #eceeef;
     padding: 2em;
 }
+.section2{
+    background-color: #cccccc;
+    padding: 2rem;
+}
+.feedback{
+    margin-top: 20px;
+}
+.feedbackbtn{
+    background-color: red;
+    color: white;
+    display: block;
+    margin: auto;
+}

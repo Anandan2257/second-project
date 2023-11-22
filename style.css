@@ -44,12 +44,11 @@
     color: white;
     margin-top: 15px;
     margin-bottom: 20px;
-    width: 79%;
+    width: 54%;
 }
 .size{
-    padding: 10px;
-    padding-left:2rem;
-    padding-top: 40px;
+    padding: 2rem;
+    padding-top: 80px;
 }
 .fa-facebook-square{
     color: #3b5998;

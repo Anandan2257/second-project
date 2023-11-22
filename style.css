@@ -21,11 +21,28 @@
 }
 .modal-title{
     margin: auto;
+    padding-left: 15%;
 }
-.logo{
+.modal-body{
+    margin: auto;
+    padding-left: 16%;
+}
+
+.modalform{
+ padding-left: 5%;
+ padding-top: 2rem;
+}
+.imgcenter{
+    display: block;
+    padding-top: 2rem;
     margin: auto;
 }
-.modelform{
- padding: 2rem;
- margin: auto;   
+.btncenter{
+    display: block;
+    margin: auto;
+    background-color: red;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 79%;
 }

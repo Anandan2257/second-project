@@ -46,3 +46,24 @@
     margin-bottom: 20px;
     width: 79%;
 }
+.size{
+    padding: 10px;
+    padding-left:2rem;
+    padding-top: 40px;
+}
+.fa-facebook-square{
+    color: #3b5998;
+    padding-left: 45%;
+    padding-right:2rem;
+}
+.fa-google-plus-square{
+    color: #c32f10;
+    padding: 2rem;
+}
+.fa-instagram {
+color: #ffffff;
+padding: 2rem;
+}
+.social{
+    margin: auto;
+}

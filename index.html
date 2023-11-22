@@ -112,12 +112,12 @@
     <div class="col-sm-12 col-md-6">
     <div class="row">
       <div class="col-sm-12">
-        <p>Having the best equipment and decor won't matter if your restaurant is unable to prepare and serve good food. A good restaurant knows how to purchase, prepare, and preserve food to make sure its customers are being served the best quality dishes.</p>
+        <p>Having the best equipment and decor won't matter if your restaurant is unable to prepare and serve good food. <br><br> A good restaurant knows how to purchase, prepare, and preserve food to make sure its customers are being served the best quality dishes.</p>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-9">
-        <p>Serving quality food can earn your restaurant a good reputation and compel your guests to return for repeat visits. High-quality ingredients and an experienced cook are important to serving good food consistently.</p>
+        <p>Serving quality food can earn your restaurant a good reputation and compel your guests to return for repeat visits.<br><br>High-quality ingredients and an experienced cook are important to serving good food consistently.</p>
       </div>
       <div class="col-sm-12 col-md-3">
         <img class="image-fluid" src="fast.png">
@@ -129,13 +129,67 @@
 <div class="row">
   <div class="col-sm-12">
     <div class="feedback">
-      <button type="button" class="btn btn-lg feedbackbtn">Feedback</button>
+      <button type="button" class="btn btn-lg feedbackbtn" data-toggle="modal" data-target="#feedbackModal">Feedback</button>
     </div>
   </div>
 </div>
 </div>
+
+
+<!------------------------- feedbackModal------------------------->
+
+
+<div class="modal fade" id="feedbackModal" tabindex="-1" role="dialog" aria-labelledby="feedbackModallable" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="feedbacklable">Give Your Feedback</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <div class="container-fulid">
+        <div class="row">
+          <div class="col-sm-12">
+            <img class="logo" src="logo.jpg">
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+            <div class="modalform">
+              <form>
+                <div class="form-group">
+                  <label for="formName">What's your Name?</label>
+                  <input type="text" class="form-control" id="forName" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="formmail">Where should we send your feedback?</label>
+                  <input type="text" class="form-control" id="formmail" placeholder="e-mail">
+                </div>
+                <div class="form-group">
+                  <label for="formfeed">Description</label>
+                  <input type="text" class="form-control" id="formfeed" placeholder="Your feedback">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
   </body>
+
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
